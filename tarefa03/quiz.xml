@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE quiz [
+<!ELEMENT quiz (disciplina, professor, turma, data, questões)>
+    <!ATTLIST quiz versao CDATA #REQUIRED>
+    <!ELEMENT disciplina (#PCDATA)>
+    <!ELEMENT professor (nome, matrícula?)>
+        <!ELEMENT nome (#PCDATA)>
+        <!ELEMENT matrícula (#PCDATA)>
+    <!ELEMENT turma (#PCDATA)>
+    <!ELEMENT data (#PCDATA)>
+    <!ELEMENT questões (questão+)>
+        <!ELEMENT questão (enunciado, pontuação, alternativas)>
+            <!ELEMENT enunciado (#PCDATA)>
+            <!ELEMENT pontuação (#PCDATA)>
+            <!ELEMENT alternativas (alternativa+)>
+                <!ELEMENT alternativa (#PCDATA)>
+                    <!ATTLIST alternativa correta (sim|nao) #REQUIRED>
+]>
+
+<quiz versao="1.0">
+    <disciplina>Biologia</disciplina>
+    <professor>
+        <nome>Dr. Arnaldo Biotto</nome>
+        <matrícula>BIO-9982</matrícula>
+    </professor>
+    <turma>2º Ano B - Ensino Médio</turma>
+    <data>01/04/2026</data>
+
+    <questões>
+        <questão>
+            <enunciado>Qual organela é responsável pela fotossíntese nas plantas?</enunciado>
+            <pontuação>2.0</pontuação>
+            <alternativas>
+                <alternativa correta="nao">Mitocôndria</alternativa>
+                <alternativa correta="sim">Cloroplasto</alternativa>
+                <alternativa correta="nao">Ribossomo</alternativa>
+                <alternativa correta="nao">Complexo de Golgi</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>O que caracteriza uma célula procarionte?</enunciado>
+            <pontuação>2.0</pontuação>
+            <alternativas>
+                <alternativa correta="nao">Presença de núcleo delimitado.</alternativa>
+                <alternativa correta="nao">Presença de mitocôndrias.</alternativa>
+                <alternativa correta="sim">Ausência de carioteca (núcleo organizado).</alternativa>
+                <alternativa correta="nao">Ser exclusivamente pluricelular.</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>Qual a base nitrogenada que não está presente no RNA?</enunciado>
+            <pontuação>2.0</pontuação>
+            <alternativas>
+                <alternativa correta="nao">Uracila</alternativa>
+                <alternativa correta="nao">Adenina</alternativa>
+                <alternativa correta="nao">Guanina</alternativa>
+                <alternativa correta="sim">Timina</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>Quem é considerado o "Pai da Genética" pelos seus estudos com ervilhas?</enunciado>
+            <pontuação>2.0</pontuação>
+            <alternativas>
+                <alternativa correta="sim">Gregor Mendel</alternativa>
+                <alternativa correta="nao">Charles Darwin</alternativa>
+                <alternativa correta="nao">Louis Pasteur</alternativa>
+                <alternativa correta="nao">Lamarck</alternativa>
+            </alternativas>
+        </questão>
+
+        <questão>
+            <enunciado>Qual é a principal função dos glóbulos vermelhos (hemácias) no sangue?</enunciado>
+            <pontuação>2.0</pontuação>
+            <alternativas>
+                <alternativa correta="nao">Produção de anticorpos.</alternativa>
+                <alternativa correta="sim">Transporte de oxigênio.</alternativa>
+                <alternativa correta="nao">Coagulação sanguínea.</alternativa>
+                <alternativa correta="nao">Digestão de proteínas.</alternativa>
+            </alternativas>
+        </questão>
+    </questões>
+</quiz>
