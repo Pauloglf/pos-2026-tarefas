@@ -1,0 +1,92 @@
+{
+  "cardapio": [
+    {
+      "id": "P01",
+      "nome": "Batata Frita",
+      "descricao": "Batatas cortadas em palito, fritas em óleo bem quente e servidas com sal.",
+      "ingredientes": [
+        "batatas",
+        "óleo vegetal",
+        "sal"
+      ],
+      "preco": {
+        "valor": 15.00,
+        "moeda": "BRL",
+        "simbolo": "R$"
+      },
+      "calorias": 312,
+      "tempoPreparo": "10min"
+    },
+    {
+      "id": "P02",
+      "nome": "Hambúrguer Gourmet",
+      "descricao": "Blend de carne bovina 180g, queijo cheddar derretido e pão brioche artesanal.",
+      "ingredientes": [
+        "carne bovina",
+        "queijo cheddar",
+        "pão brioche"
+      ],
+      "preco": {
+        "valor": 35.00,
+        "moeda": "BRL",
+        "simbolo": "R$"
+      },
+      "calorias": 550,
+      "tempoPreparo": "20min"
+    },
+    {
+      "id": "P03",
+      "nome": "Lasanha à Bolonhesa",
+      "descricao": "Massa fresca artesanal com camadas de ragu de carne moída e molho de tomate pelado.",
+      "ingredientes": [
+        "massa de lasanha",
+        "carne moída",
+        "molho de tomate",
+        "queijo muçarela"
+      ],
+      "preco": {
+        "valor": 45.00,
+        "moeda": "BRL",
+        "simbolo": "R$"
+      },
+      "calorias": 620,
+      "tempoPreparo": "40min"
+    },
+    {
+      "id": "P04",
+      "nome": "Salada Caesar",
+      "descricao": "Alface romana fresca, croutons crocantes, queijo parmesão ralado e molho caesar original.",
+      "ingredientes": [
+        "alface romana",
+        "croutons",
+        "queijo parmesão",
+        "molho caesar"
+      ],
+      "preco": {
+        "valor": 28.00,
+        "moeda": "BRL",
+        "simbolo": "R$"
+      },
+      "calorias": 180,
+      "tempoPreparo": "15min"
+    },
+    {
+      "id": "P05",
+      "nome": "Risoto de Cogumelos",
+      "descricao": "Arroz arbóreo cozido lentamente com caldo de legumes, mix de cogumelos e finalizado com manteiga.",
+      "ingredientes": [
+        "arroz arbóreo",
+        "cogumelos shimeji",
+        "vinho branco",
+        "caldo de legumes"
+      ],
+      "preco": {
+        "valor": 52.00,
+        "moeda": "BRL",
+        "simbolo": "R$"
+      },
+      "calorias": 410,
+      "tempoPreparo": "30min"
+    }
+  ]
+}

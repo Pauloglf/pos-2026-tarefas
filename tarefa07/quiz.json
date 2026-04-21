@@ -1,0 +1,64 @@
+{
+  "quiz": {
+    "versao": "1.0",
+    "disciplina": "Biologia",
+    "professor": {
+      "nome": "Dr. Arnaldo Biotto",
+      "matricula": "BIO-9982"
+    },
+    "turma": "2º Ano B - Ensino Médio",
+    "data": "2026-04-01",
+    "questoes": [
+      {
+        "enunciado": "Qual organela é responsável pela fotossíntese nas plantas?",
+        "pontuacao": 2.0,
+        "alternativas": [
+          { "texto": "Mitocôndria", "correta": "nao" },
+          { "texto": "Cloroplasto", "correta": "sim" },
+          { "texto": "Ribossomo", "correta": "nao" },
+          { "texto": "Complexo de Golgi", "correta": "nao" }
+        ]
+      },
+      {
+        "enunciado": "O que caracteriza uma célula procarionte?",
+        "pontuacao": 2.0,
+        "alternativas": [
+          { "texto": "Presença de núcleo delimitado.", "correta": "nao" },
+          { "texto": "Presença de mitocôndrias.", "correta": "nao" },
+          { "texto": "Ausência de carioteca (núcleo organizado).", "correta": "sim" },
+          { "texto": "Ser exclusivamente pluricelular.", "correta": "nao" }
+        ]
+      },
+      {
+        "enunciado": "Qual a base nitrogenada que não está presente no RNA?",
+        "pontuacao": 2.0,
+        "alternativas": [
+          { "texto": "Uracila", "correta": "nao" },
+          { "texto": "Adenina", "correta": "nao" },
+          { "texto": "Guanina", "correta": "nao" },
+          { "texto": "Timina", "correta": "sim" }
+        ]
+      },
+      {
+        "enunciado": "Quem é considerado o 'Pai da Genética' pelos seus estudos com ervilhas?",
+        "pontuacao": 2.0,
+        "alternativas": [
+          { "texto": "Gregor Mendel", "correta": "sim" },
+          { "texto": "Charles Darwin", "correta": "nao" },
+          { "texto": "Louis Pasteur", "correta": "nao" },
+          { "texto": "Lamarck", "correta": "nao" }
+        ]
+      },
+      {
+        "enunciado": "Qual é a principal função dos glóbulos vermelhos (hemácias) no sangue?",
+        "pontuacao": 2.0,
+        "alternativas": [
+          { "texto": "Produção de anticorpos.", "correta": "nao" },
+          { "texto": "Transporte de oxigênio.", "correta": "sim" },
+          { "texto": "Coagulação sanguínea.", "correta": "nao" },
+          { "texto": "Digestão de proteínas.", "correta": "nao" }
+        ]
+      }
+    ]
+  }
+}

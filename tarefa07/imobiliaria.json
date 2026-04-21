@@ -1,0 +1,104 @@
+{
+  "imobiliaria": [
+    {
+      "descricao": "Apartamento garden com área externa privativa.",
+      "proprietario": {
+        "nome": "Carlos Andrade",
+        "telefones": ["(11) 98888-0001", "(11) 97777-0002"],
+        "emails": ["carlos.andrade@email.com"]
+      },
+      "endereco": {
+        "rua": "Rua das Flores",
+        "bairro": "Jardins",
+        "cidade": "São Paulo",
+        "numero": 123
+      },
+      "caracteristicas": {
+        "tamanho_m2": 120.0,
+        "numQuartos": 3,
+        "numBanheiros": 2
+      },
+      "valor": 850000.00
+    },
+    {
+      "descricao": "Chácara rústica para eventos.",
+      "proprietario": {
+        "nome": "Maria Silva",
+        "telefones": ["(11) 95555-4444"],
+        "emails": []
+      },
+      "endereco": {
+        "rua": "Estrada do Sol",
+        "bairro": "Zona Rural",
+        "cidade": "Atibaia",
+        "numero": null
+      },
+      "caracteristicas": {
+        "tamanho_m2": 5000.0,
+        "numQuartos": 4,
+        "numBanheiros": 5
+      },
+      "valor": 1200000.00
+    },
+    {
+      "descricao": "Studio mobiliado próximo ao metrô.",
+      "proprietario": {
+        "nome": "Lucas Mendes",
+        "telefones": [],
+        "emails": ["lucas.m@startup.com"]
+      },
+      "endereco": {
+        "rua": "Av. Paulista",
+        "bairro": "Bela Vista",
+        "cidade": "São Paulo",
+        "numero": 1000
+      },
+      "caracteristicas": {
+        "tamanho_m2": 35.0,
+        "numQuartos": 1,
+        "numBanheiros": 1
+      },
+      "valor": 450000.00
+    },
+    {
+      "descricao": "Casa duplex recém reformada.",
+      "proprietario": {
+        "nome": "Fernanda Oliveira",
+        "telefones": ["(21) 93333-2222"],
+        "emails": ["fer.oliveira@gmail.com"]
+      },
+      "endereco": {
+        "rua": "Rua General Osório",
+        "bairro": "Ipanema",
+        "cidade": "Rio de Janeiro",
+        "numero": 45
+      },
+      "caracteristicas": {
+        "tamanho_m2": 180.0,
+        "numQuartos": 3,
+        "numBanheiros": 3
+      },
+      "valor": 2500000.00
+    },
+    {
+      "descricao": "Cobertura duplex com vista mar.",
+      "proprietario": {
+        "nome": "Ricardo Santos",
+        "telefones": ["(21) 91111-9999"],
+        "emails": ["ricardo.santos@invest.com"]
+      },
+      "endereco": {
+        "rua": "Av. Delfim Moreira",
+        "bairro": "Leblon",
+        "cidade": "Rio de Janeiro",
+        "numero": 800
+      },
+      "caracteristicas": {
+        "tamanho_m2": 350.0,
+        "numQuartos": 4,
+        "numBanheiros": 6
+      },
+      "valor": 15000000.00
+    }
+  ]
+}
