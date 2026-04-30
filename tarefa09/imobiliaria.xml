@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE imobiliaria [
+    <!ELEMENT imobiliaria (imovel+)>
+    <!ELEMENT imovel (descricao, proprietario, endereco, caracteristicas, valor)>
+    
+    <!ELEMENT descricao (#PCDATA)>
+    
+    <!ELEMENT proprietario (nome, (email | telefone)+)>
+    <!ELEMENT nome (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT telefone (#PCDATA)>
+    
+    <!ELEMENT endereco (rua, bairro, cidade, número?)>
+    <!ELEMENT rua (#PCDATA)>
+    <!ELEMENT bairro (#PCDATA)>
+    <!ELEMENT cidade (#PCDATA)>
+    <!ELEMENT número (#PCDATA)>
+    
+    <!ELEMENT caracteristicas (tamanho, numQuartos, numBanheiros)>
+    <!ELEMENT tamanho (#PCDATA)>
+    <!ELEMENT numQuartos (#PCDATA)>
+    <!ELEMENT numBanheiros (#PCDATA)>
+    
+    <!ELEMENT valor (#PCDATA)>
+]>
+
+<imobiliaria>
+    <imovel>
+        <descricao>Apartamento garden com área externa privativa.</descricao>
+        <proprietario>
+            <nome>Carlos Andrade</nome>
+            <telefone>(11) 98888-0001</telefone>
+            <telefone>(11) 97777-0002</telefone>
+            <email>carlos.andrade@email.com</email>
+        </proprietario>
+        <endereco>
+            <rua>Rua das Flores</rua>
+            <bairro>Jardins</bairro>
+            <cidade>São Paulo</cidade>
+            <número>123</número>
+        </endereco>
+        <caracteristicas>
+            <tamanho>120m²</tamanho>
+            <numQuartos>3</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+        <valor>850.000,00</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Chácara rústica para eventos.</descricao>
+        <proprietario>
+            <nome>Maria Silva</nome>
+            <telefone>(11) 95555-4444</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Estrada do Sol</rua>
+            <bairro>Zona Rural</bairro>
+            <cidade>Atibaia</cidade>
+            </endereco>
+        <caracteristicas>
+            <tamanho>5000m²</tamanho>
+            <numQuartos>4</numQuartos>
+            <numBanheiros>5</numBanheiros>
+        </caracteristicas>
+        <valor>1.200.000,00</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Studio mobiliado próximo ao metrô.</descricao>
+        <proprietario>
+            <nome>Lucas Mendes</nome>
+            <email>lucas.m@startup.com</email>
+        </proprietario>
+        <endereco>
+            <rua>Av. Paulista</rua>
+            <bairro>Bela Vista</bairro>
+            <cidade>São Paulo</cidade>
+            <número>1000</número>
+        </endereco>
+        <caracteristicas>
+            <tamanho>35m²</tamanho>
+            <numQuartos>1</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>450.000,00</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Casa duplex recém reformada.</descricao>
+        <proprietario>
+            <nome>Fernanda Oliveira</nome>
+            <email>fer.oliveira@gmail.com</email>
+            <telefone>(21) 93333-2222</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua General Osório</rua>
+            <bairro>Ipanema</bairro>
+            <cidade>Rio de Janeiro</cidade>
+            <número>45</número>
+        </endereco>
+        <caracteristicas>
+            <tamanho>180m²</tamanho>
+            <numQuartos>3</numQuartos>
+            <numBanheiros>3</numBanheiros>
+        </caracteristicas>
+        <valor>2.500.000,00</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Cobertura duplex com vista mar.</descricao>
+        <proprietario>
+            <nome>Ricardo Santos</nome>
+            <telefone>(21) 91111-9999</telefone>
+            <email>ricardo.santos@invest.com</email>
+        </proprietario>
+        <endereco>
+            <rua>Av. Delfim Moreira</rua>
+            <bairro>Leblon</bairro>
+            <cidade>Rio de Janeiro</cidade>
+            <número>800</número>
+        </endereco>
+        <caracteristicas>
+            <tamanho>350m²</tamanho>
+            <numQuartos>4</numQuartos>
+            <numBanheiros>6</numBanheiros>
+        </caracteristicas>
+        <valor>15.000.000,00</valor>
+    </imovel>
+</imobiliaria>

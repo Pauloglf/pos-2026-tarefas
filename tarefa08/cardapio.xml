@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cardapio SYSTEM "definicoes.dtd">
+
+<cardapio>
+    <prato id="1">
+        <nome>Batata Frita</nome>
+        <descricao>Batatas cortadas em palito, fritas em óleo bem quente e servidas com sal.</descricao>
+        <ingredientes>
+            <ingrediente>batatas</ingrediente>
+            <ingrediente>óleo vegetal</ingrediente>
+            <ingrediente>sal</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">&reais; 15,00</preco>
+        <calorias>312</calorias>
+        <tempoPreparo>10min</tempoPreparo>
+    </prato>
+
+    <prato id="2">
+        <nome>Hambúrguer Gourmet</nome>
+        <descricao>Blend de carne bovina 180g, queijo cheddar derretido e pão brioche artesanal.</descricao>
+        <ingredientes>
+            <ingrediente>carne bovina</ingrediente>
+            <ingrediente>queijo cheddar</ingrediente>
+            <ingrediente>pão brioche</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">&reais; 35,00</preco>
+        <calorias>550</calorias>
+        <tempoPreparo>20min</tempoPreparo>
+    </prato>
+
+    <prato id="3">
+        <nome>Lasanha à Bolonhesa</nome>
+        <descricao>Massa fresca artesanal com camadas de ragu de carne moída e molho de tomate pelado.</descricao>
+        <ingredientes>
+            <ingrediente>massa de lasanha</ingrediente>
+            <ingrediente>carne moída</ingrediente>
+            <ingrediente>molho de tomate</ingrediente>
+            <ingrediente>queijo muçarela</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">&reais; 45,00</preco>
+        <calorias>620</calorias>
+        <tempoPreparo>40min</tempoPreparo>
+    </prato>
+
+    <prato id="4">
+        <nome>Salada Caesar</nome>
+        <descricao>Alface romana fresca, croutons crocantes, queijo parmesão ralado e molho caesar original.</descricao>
+        <ingredientes>
+            <ingrediente>alface romana</ingrediente>
+            <ingrediente>croutons</ingrediente>
+            <ingrediente>queijo parmesão</ingrediente>
+            <ingrediente>molho caesar</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">&reais; 28,00</preco>
+        <calorias>180</calorias>
+        <tempoPreparo>15min</tempoPreparo>
+    </prato>
+
+    <prato id="5">
+        <nome>Risoto de Cogumelos</nome>
+        <descricao>Arroz arbóreo cozido lentamente com caldo de legumes, mix de cogumelos e finalizado com manteiga.</descricao>
+        <ingredientes>
+            <ingrediente>arroz arbóreo</ingrediente>
+            <ingrediente>cogumelos shimeji</ingrediente>
+            <ingrediente>vinho branco</ingrediente>
+            <ingrediente>caldo de legumes</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">&reais; 52,00</preco>
+        <calorias>410</calorias>
+        <tempoPreparo>30min</tempoPreparo>
+    </prato>
+</cardapio>

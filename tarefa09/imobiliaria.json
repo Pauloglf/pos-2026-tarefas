@@ -1,0 +1,121 @@
+{
+    "imobiliaria": [
+        {
+            "descricao": "Apartamento garden com área externa privativa.",
+            "proprietario": {
+                "nome": "Carlos Andrade",
+                "emails": [
+                    "carlos.andrade@email.com"
+                ],
+                "telefones": [
+                    "(11) 98888-0001",
+                    "(11) 97777-0002"
+                ]
+            },
+            "endereco": {
+                "rua": "Rua das Flores",
+                "bairro": "Jardins",
+                "cidade": "São Paulo",
+                "numero": 123
+            },
+            "caracteristicas": {
+                "tamanho": "120m²",
+                "numQuartos": 3,
+                "numBanheiros": 2
+            },
+            "valor": "850.000,00"
+        },
+        {
+            "descricao": "Chácara rústica para eventos.",
+            "proprietario": {
+                "nome": "Maria Silva",
+                "emails": [],
+                "telefones": [
+                    "(11) 95555-4444"
+                ]
+            },
+            "endereco": {
+                "rua": "Estrada do Sol",
+                "bairro": "Zona Rural",
+                "cidade": "Atibaia",
+                "numero": null
+            },
+            "caracteristicas": {
+                "tamanho": "5000m²",
+                "numQuartos": 4,
+                "numBanheiros": 5
+            },
+            "valor": "1.200.000,00"
+        },
+        {
+            "descricao": "Studio mobiliado próximo ao metrô.",
+            "proprietario": {
+                "nome": "Lucas Mendes",
+                "emails": [
+                    "lucas.m@startup.com"
+                ],
+                "telefones": []
+            },
+            "endereco": {
+                "rua": "Av. Paulista",
+                "bairro": "Bela Vista",
+                "cidade": "São Paulo",
+                "numero": 1000
+            },
+            "caracteristicas": {
+                "tamanho": "35m²",
+                "numQuartos": 1,
+                "numBanheiros": 1
+            },
+            "valor": "450.000,00"
+        },
+        {
+            "descricao": "Casa duplex recém reformada.",
+            "proprietario": {
+                "nome": "Fernanda Oliveira",
+                "emails": [
+                    "fer.oliveira@gmail.com"
+                ],
+                "telefones": [
+                    "(21) 93333-2222"
+                ]
+            },
+            "endereco": {
+                "rua": "Rua General Osório",
+                "bairro": "Ipanema",
+                "cidade": "Rio de Janeiro",
+                "numero": 45
+            },
+            "caracteristicas": {
+                "tamanho": "180m²",
+                "numQuartos": 3,
+                "numBanheiros": 3
+            },
+            "valor": "2.500.000,00"
+        },
+        {
+            "descricao": "Cobertura duplex com vista mar.",
+            "proprietario": {
+                "nome": "Ricardo Santos",
+                "emails": [
+                    "ricardo.santos@invest.com"
+                ],
+                "telefones": [
+                    "(21) 91111-9999"
+                ]
+            },
+            "endereco": {
+                "rua": "Av. Delfim Moreira",
+                "bairro": "Leblon",
+                "cidade": "Rio de Janeiro",
+                "numero": 800
+            },
+            "caracteristicas": {
+                "tamanho": "350m²",
+                "numQuartos": 4,
+                "numBanheiros": 6
+            },
+            "valor": "15.000.000,00"
+        }
+    ]
+}
